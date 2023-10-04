@@ -1,5 +1,5 @@
 import styles from "./styles.module.scss";
-
+import { AiFillAccountBook } from "react-icons/ai";
 const Top = () => {
   return (
     <div className={styles.Top}>
@@ -7,9 +7,15 @@ const Top = () => {
         <div></div>
         <ul>
           <li>
-            <img src="" alt="" />
+            {/* <img src="" alt="" /> */}
             <span> saudi araiby</span>
           </li>
+          <li>
+            <AiFillAccountBook />
+          </li>
+          <li>wishlist</li>
+          <li>help</li>
+          <li>contact</li>
         </ul>
       </div>
     </div>
